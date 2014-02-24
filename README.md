@@ -1,6 +1,10 @@
 CropView
 ========
 
+CropView is a cosutome view that marks and cut bitmap from user scratch.
+
+Use this view to get complex bitmap cuts.
+
 How to use:
 
 Create in you XML layout TouchCropView:
