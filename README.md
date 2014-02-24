@@ -19,8 +19,7 @@ Create in you XML layout TouchCropView:
 In you on create find the view and set getViewTreeObserver().addOnGlobalLayoutListener the get the view size when an image is attached to him.
 
 <code>
-	drawing = (TouchCropView) findViewById(R.id.images);
-
+drawing = (TouchCropView) findViewById(R.id.images);
 drawing.getViewTreeObserver().addOnGlobalLayoutListener(
 new ViewTreeObserver.OnGlobalLayoutListener() {
 public void onGlobalLayout() {
